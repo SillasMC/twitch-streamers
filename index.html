@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Twitch Streamers</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Copse|Special+Elite" rel="stylesheet">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<!-- JS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+
+	</head>
+	<body>
+		<!-- Div with the full content-->
+		<div class="container-fluid main-div">
+
+			<!-- Main row -->
+			<div class="main-row">
+				<div class="row">
+					<div class="col-xs-12 col-md-12 col-lg-12">
+						<p><i class="fa fa-twitch" aria-hidden="true"></i> Twitch.tv Streamers <i class="fa fa-twitch" aria-hidden="true"></i></p>
+					</div>
+				</div>
+
+				<!-- Inner row -->
+				<div class="inner-row">
+					<!-- Filter streamers -->
+					<input id="input-id" type="text" class="form-control" placeholder="Filter..." autofocus>
+
+					<!-- Buttons -->
+					<div class="btn-group btn-group-div">
+						<button id="btn-all-id" type="button" class="btn btn-primary btn-lg">All</button>
+						<button id="btn-online-id" type="button" class="btn btn-success btn-lg">Online</button>
+						<button id="btn-offline-id" type="button" class="btn btn-danger btn-lg">Offline</button>
+					</div>
+
+					<!-- Results -->
+					<div id="result-div-id">
+						<!-- Results will be displayed here -->
+					</div>
+				</div>
+				<!-- Author -->
+				<div class="row code-author">
+				<div class="col-xs-12 col-md-12 col-lg-12">
+					<p>Developed and designed by <a target='_blank' href="https://github.com/SillasMC">Sillas</a></p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</body>
+</html>
